@@ -1,0 +1,16 @@
+{
+  "name": "intech-classifying-information",
+  "version": "1.0.0",
+  "description": "```shell # Run TP1 node ./euclidian.js",
+  "main": "tp1.js",
+  "scripts": {
+    "TP1": "clear && node ./TP/1/TP1.recommendation.js",
+    "TP2": "clear && node ./TP/2/TP2.combinatoire.js",
+    "TP3": "clear && node ./TP/3/TP3.clustering.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
+}
