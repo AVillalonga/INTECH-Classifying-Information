@@ -67,9 +67,10 @@ function recommend(target) {
                                         .map(feedback => feedback.name);
     
     const similarities  = [];
-    for(const username of usernames) 
+    for(const username of usernames) {
         similarities[username] = pearsonCorrelation(target, username);
-    
+    }
+
     const result        = [];
     
     for(const movie in __FORMATTED_DATASET__) {
